@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enviar_correo">enviar correo</string>
+    <string name="origen">origen</string>
+    <string name="poder">poder</string>
+    <string name="creación">año de creacion</string>
+    <string name="origenn">Origen:</string>
+    <string name="poderr">Poder:</string>
+    <string name="creacionn">Año de creación:</string>
+    <string name="color">Color:</string>
+    <string name="traduccion">Traduccion:</string>
 </resources>
