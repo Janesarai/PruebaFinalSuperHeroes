@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegeichon"
+    app:startDestination="@id/fragmentListaHeroes">
+
+    <fragment
+        android:id="@+id/fragmentListaHeroes"
+        android:name="com.example.pruebafinalsuperheroes.vistas.FragmentListaHeroes"
+        android:label="fragment_lista_heroes"
+        tools:layout="@layout/fragment_lista_heroes" >
+        <action
+            android:id="@+id/action_fragmentListaHeroes_to_fragmentDetalleHeroes"
+            app:destination="@id/fragmentDetalleHeroes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetalleHeroes"
+        android:name="com.example.pruebafinalsuperheroes.vistas.FragmentDetalleHeroes"
+        android:label="fragment_detalle_heroes"
+        tools:layout="@layout/fragment_detalle_heroes" />
+</navigation>
