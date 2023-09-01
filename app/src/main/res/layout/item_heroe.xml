@@ -68,7 +68,6 @@
                 style="@style/estandarLetra"
                 android:layout_marginTop="50dp"
                 android:background="#2196F3"
-                android:shadowRadius="@android:dimen/dialog_min_width_major"
                 android:text="TextView"
                 android:textColor="@color/text_icon"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
