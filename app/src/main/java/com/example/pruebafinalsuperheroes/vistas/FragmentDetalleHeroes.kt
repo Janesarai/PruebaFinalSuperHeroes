@@ -16,7 +16,7 @@ private const val ARG_PARAM1 = "id"
 class FragmentDetalleHeroes : Fragment() {
     lateinit var binding: FragmentDetalleHeroesBinding
     private val heroeVM: HeroeVM by activityViewModels()
-    private  var heroeId: Int=0
+    private  var heroeId: Int= 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
