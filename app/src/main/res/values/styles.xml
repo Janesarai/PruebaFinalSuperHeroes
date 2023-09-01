@@ -8,4 +8,10 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">16dp</item>
     </style>
+
+    <style name="centrarYCOLOR">
+        <item name="android:background">#BBDEFB</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
