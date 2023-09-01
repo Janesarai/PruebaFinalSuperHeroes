@@ -40,7 +40,6 @@ class AdapterHeroe: RecyclerView.Adapter <AdapterHeroe.ItemHeroeViewHolder>() {
         fun bind(heroe: HeroeEntity){
             heroeVista.txNombre.text = heroe.nombre
             heroeVista.txOrigen.text = heroe.origen
-            heroeVista.txPoder.text = heroe.poder
             heroeVista.imgHeroe.load(heroe.imagen)
             heroeVista.CVheroe.setOnClickListener {
                 val bundle = Bundle()
